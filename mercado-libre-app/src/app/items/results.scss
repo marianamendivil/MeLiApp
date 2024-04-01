@@ -1,0 +1,16 @@
+.results-box {
+    display: flex;
+    padding: 10px;
+
+    .product-image {
+        width: 200px;
+        height: 200px;
+    }
+
+    .product-info {
+        gap: 15px;
+        display: flex;
+        flex-direction: column;
+        padding-top: 15px;
+    }
+}

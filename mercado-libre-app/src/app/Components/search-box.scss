@@ -1,0 +1,39 @@
+@import "./../globals.scss";
+$ml-golden-yellow: #ffe600;
+
+.nav-header {
+  background-color: $ml-golden-yellow;
+  height: 60px;
+
+  &-items {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 8px;
+    gap: 4%;
+  }
+}
+
+.nav {
+  &-logo {
+    display: flex;
+    background-image: url(https://http2.mlstatic.com/frontend-assets/ml-web-navigation/ui-navigation/6.6.31/mercadolibre/logo_large_25years.png);
+    width: 134px;
+    height: 34px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-y: center;
+  }
+
+  &-form {
+    width: 100%;
+    display: flex;
+  }
+
+  &-button {
+    background-color: $ml-bright-gray;
+    border-radius: unset;
+  }
+}
